@@ -1,0 +1,49 @@
+#scrlbl_wrapper
+{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+#scrlbl_btn_left, #scrlbl_btn_right
+{
+	color: black;
+	background-color: #CACACA;
+	border-radius: 2px;
+	border: solid thin #CDCDCD;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#scrlbl_txt
+{
+	padding: 10px;
+	text-align: center;
+	border: solid thin #CDCDCD;
+	font-size: 11pt;
+	letter-spacing: 0.85px;
+	width: 150px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.scrlbl_tooltip
+{
+	position: absolute;
+	opacity: 0.4;
+	bottom: -45px;
+	left: 35px;
+	text-align: center;
+	background-color: white;
+	border: solid thin #444;
+	padding: 5px;
+	border-radius: 3px;
+}
