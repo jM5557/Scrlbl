@@ -78,6 +78,8 @@ $(document).ready(function(){
 		});
 	}
 
+
+    //Creates a customized tooltip for text content that is larger than 18 characters long
     $('#scrlbl_txt').on("mouseover", function(){
     	if(objectArr[pos].length > 18)
 			$('#scrlbl_wrapper').append('<p class = "scrlbl_tooltip">' + objectArr[pos] + '</p>');
